@@ -1,0 +1,40 @@
+# requirements.txt
+# Project: Tiền xử lý & phân loại phân khúc giá BĐS TP.HCM
+# Python >= 3.10
+# Tạo venv: python -m venv venv && venv\Scripts\activate && pip install -r requirements.txt
+
+# --- Data science core ---
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+imbalanced-learn==0.14.1
+xgboost==3.2.0
+statsmodels==0.14.6
+joblib==1.5.3
+
+# --- Visualization ---
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# --- Geospatial ---
+geopy==2.4.1
+
+# --- File I/O ---
+openpyxl==3.1.5
+opencv-python==4.13.0.92
+
+# --- Jupyter ---
+notebook
+ipykernel==7.2.0
+ipython==9.12.0
+
+# --- Crawler ---
+# Lưu ý: undetected-chromedriver tự tải ChromeDriver khi chạy lần đầu
+selenium==4.44.0
+undetected-chromedriver==3.5.5
+setuptools==69.5.1  # undetected-chromedriver yêu cầu setuptools<70
+
+# --- Utilities ---
+requests==2.34.2
+tqdm==4.67.3
